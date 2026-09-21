@@ -1,0 +1,20 @@
+{
+  "name": "twtworkshop",
+  "owner": {
+    "name": "rajammaldeepak"
+  },
+  "metadata": {
+    "description": "TWT Workshop Marketplace — sample Claude Code plugins for technical writers",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "tw-toolkit",
+      "source": "./plugins/tw-toolkit",
+      "description": "A technical-writer toolkit: style checking, release-notes drafting, a documentation-coverage skill, a doc-audit agent, and read-only MCP servers for doc research.",
+      "version": "1.0.0",
+      "category": "documentation",
+      "keywords": ["technical-writing", "documentation", "style-guide", "docs"]
+    }
+  ]
+}

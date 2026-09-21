@@ -1,0 +1,11 @@
+{
+  "name": "tw-toolkit",
+  "version": "1.0.0",
+  "description": "A technical-writer toolkit: style checking, release-notes drafting, a documentation-coverage skill, a doc-audit agent, and read-only MCP servers for doc research.",
+  "author": {
+    "name": "Rajammal",
+    "url": "https://github.com/rajammaldeepak"
+  },
+  "license": "MIT",
+  "keywords": ["technical-writing", "documentation", "style-guide"]
+}

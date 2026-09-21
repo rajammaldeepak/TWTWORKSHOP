@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash -c 'FILE=\"$1\"; case \"$FILE\" in *.md) echo \"tw-toolkit: reminder — this is a Markdown file. Consider running /tw-toolkit:check-style or the doc-coverage skill on it before you finish.\" ;; esac' -- \"${TOOL_INPUT_FILE_PATH:-}\""
+          }
+        ]
+      }
+    ]
+  }
+}
